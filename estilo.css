@@ -1,0 +1,30 @@
+/*body, html {
+    height: 100%;
+}
+
+body {
+    background: url("pics/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
+
+.contenido{
+    text-align:center;
+}
+
+#imgButton{
+    height: 100px;
+    width: 100px;
+}
+
+.btn-group button{
+    background-color: white;
+    border: none;
+    
+}
+
+.btn:active{
+    box-shadow: white;
+}
