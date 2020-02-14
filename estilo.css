@@ -10,21 +10,17 @@ body {
     -o-background-size: cover;
 }*/
 
-.contenido{
+.buscando, .masvendidos{
     text-align:center;
 }
 
-#imgButton{
-    height: 100px;
-    width: 100px;
+#imgRow{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
 }
 
-.btn-group button{
-    background-color: white;
-    border: none;
-    
-}
-
-.btn:active{
-    box-shadow: white;
+#imgRow:hover{
+    transform: scale(1.2);
+    opacity: 1;
 }
