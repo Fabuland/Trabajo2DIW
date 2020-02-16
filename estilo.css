@@ -24,3 +24,7 @@ body {
     transform: scale(1.2);
     opacity: 1;
 }
+
+.alert{
+    display:none;
+  }
