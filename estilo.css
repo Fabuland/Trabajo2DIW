@@ -1,14 +1,15 @@
 /*body, html {
     height: 100%;
 }
-
-body {
-    background: url("pics/background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}*/
+*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .buscando, .masvendidos{
     text-align:center;
@@ -28,3 +29,7 @@ body {
 .alert{
     display:none;
   }
+
+#btnEdad:hover{
+    transform: scale(1.2);
+}
