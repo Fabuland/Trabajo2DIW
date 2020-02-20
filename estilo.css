@@ -33,3 +33,17 @@ html,body
 #btnEdad:hover{
     transform: scale(1.2);
 }
+
+.pagination>li.page-item>a {
+    background-color: white !important;
+    color: Green;
+  }
+
+  .pagination>li.page-item>a:hover {
+    transform: scale(1.2);
+    background-color: lightblue !important;
+  }
+
+#lema, #futuro, #ventajas{
+    color: red;
+}
