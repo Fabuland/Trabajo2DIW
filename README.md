@@ -11,10 +11,10 @@ Collapse (0.3 puntos)
 
 
 
-Breadcrumb (0.2 puntos)  
-Botones (0.2 puntos)  
-Grupo de botones (0.2 puntos)  
-Dropdown (0.3 puntos)  
+Breadcrumb (0.2 puntos)  Linea 106
+Botones (0.2 puntos)  Linea 120
+Grupo de botones (0.2 puntos)  Linea 190
+Dropdown (0.3 puntos)  Linea 82
 Nav (0.2 puntos)  
 NavBar (0.2 puntos)  
 Badges (0.2 puntos)  
