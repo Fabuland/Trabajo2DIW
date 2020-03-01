@@ -26,9 +26,7 @@ html,body
     opacity: 1;
 }
 
-.alert{
-    display:none;
-  }
+
 
 #btnEdad:hover{
     transform: scale(1.2);
@@ -44,6 +42,8 @@ html,body
     background-color: lightblue !important;
   }
 
-#lema, #futuro, #ventajas{
-    color: red;
+.modo-oscuro{
+    background-color: rgb(37, 37, 37);
+    color: #FFF;
 }
+

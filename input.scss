@@ -1,0 +1,63 @@
+//Variables
+$font-stack:    Tahoma, sans-serif;
+$primary-color: #000;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+//Mapa
+$nombres: ("lema", "futuro", "ventajas");
+
+@each $name in $nombres {
+  ##{$name} {
+    display: inline-block;
+    color: orange;
+  }
+}
+
+//Estructura de control
+$fondo-claro: #FFF;
+$texto-claro: #000;
+$fondo-oscuro: rgb(37, 37, 37);
+$texto-oscuro: #FFF;
+
+//Mixin
+@mixin temas($tema-claro: true) {
+  @if $tema-claro {
+    background-color: $fondo-claro;
+    color: $texto-claro;
+  } @else {
+    background-color: $fondo-oscuro;
+    color: $texto-oscuro;
+  }
+}
+
+body {
+  @include temas($tema-claro: true);
+}
+
+//Funciones
+$primary-color: #036;
+
+.pagination>li.page-item>a{
+    background-color: $primary-color;
+  color: scale-color($primary-color, $lightness: +40%);
+}
+
+//Herencia
+%full{
+    width: 100%;
+    height: 100%;
+}
+
+#imgRow:hover{
+    @extend %full;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+//Partials
+
+@import 'partials';

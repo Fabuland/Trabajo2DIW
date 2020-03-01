@@ -35,3 +35,8 @@ $("#btnLogin").click(function() {
     false
   );
 })();
+
+function modoOscuro() {
+  var element = document.body;
+  element.classList.toggle("modo-oscuro");
+}

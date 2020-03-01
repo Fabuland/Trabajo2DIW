@@ -1,0 +1,77 @@
+body {
+  font: 100% Tahoma, sans-serif;
+  color: #000;
+}
+
+#lema {
+  display: inline-block;
+  color: orange;
+}
+
+#futuro {
+  display: inline-block;
+  color: orange;
+}
+
+#ventajas {
+  display: inline-block;
+  color: orange;
+}
+
+body {
+  background-color: #FFF;
+  color: #000;
+}
+
+.pagination > li.page-item > a {
+  background-color: #036;
+  color: #0a85ff;
+}
+
+#imgRow:hover {
+  width: 100%;
+  height: 100%;
+}
+
+#imgRow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
+}
+
+.alert {
+  display: none;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.buscando, .masvendidos{
+    text-align:center;
+}
+
+#imgRow{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+#btnEdad:hover{
+  transform: scale(1.2);
+}
+
+.pagination>li.page-item>a:hover {
+  transform: scale(1.2);
+  background-color: lightblue !important;
+}
+
+.modo-oscuro{
+  background-color: rgb(37, 37, 37);
+  color: #FFF;
+}
